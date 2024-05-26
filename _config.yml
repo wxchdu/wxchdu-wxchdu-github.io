@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Gretty Fly
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: wxc
 language: en
 timezone: ''
 
@@ -66,9 +66,11 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+
 category_map:
-tag_map:
+  平时学习: study
+  算法练习: practice
+  日常积累: daily
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -97,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: shokax
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +107,12 @@ deploy:
   type: git
   repo: https://github.com/wxchdu/wxchdu.github.io
   branch: master
+
+statics: "/" # 静态文件根目录，可用于 CDN 加速
+assets: "assets" # 图片资源存放目录
+css: "css" # css 存放目录 (不建议改动)
+js: "js" # js 存放目录 (不建议改动)
+
+
+categories:
+  - [平时学习]

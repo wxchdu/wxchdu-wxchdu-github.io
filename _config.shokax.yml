@@ -1,0 +1,12 @@
+
+social:
+  github: https://github.com/wxchdu|| github || "#191717"
+menu:
+  关于: /page2/ || coffee
+  文章:
+    default: / || user
+    分类: /categories/ || user
+    标签: /page1/ || cloud
+    归档: /page2/ || 
+  
+alternate: "wxc's blog" #站点大标题，（比 title 高一级，但仅在 index 显示）
